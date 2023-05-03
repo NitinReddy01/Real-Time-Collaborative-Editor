@@ -25,7 +25,7 @@ export default function TextEditor(props) {
 
   //socket connection
   useEffect(() => {
-    const s = io("Your Server url");
+    const s = io("https://mumble.onrender.com/");
     setSocket(s);
     return () => {
       s.disconnect();

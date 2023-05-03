@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Room from './Components/room/Room';
 import { useState } from 'react';
+import ZegoApp from './Components/Zego/ZegoApp';
 
 function App() {
   const [name,setName] = useState(null);
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Lobby setname={changeName} flag={flag} />} />
           <Route path='/:roomId' element={<Room name={name} setflag={setFlag}/>} />
+          <Route path='/zego' element={<ZegoApp/>} />
         </Routes>
       </Router>
   );

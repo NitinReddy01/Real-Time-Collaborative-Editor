@@ -10,7 +10,7 @@ import AgoraRTC from 'agora-rtc-react';
 import TextEditor from '../texteditor/Texteditor';
 import Container from '../Whiteboard/container/Container';
 //app id of agora
-const APP_ID = "Agora APP ID"
+const APP_ID = "ef296adc2c3146b0a8ebb53785da997a"
 //rtm client
 let rtmClient;
 let channel;//channel or room
@@ -495,7 +495,7 @@ export default function Room(props) {
                     </button>
                     <h3 id="logo">
                         <img src={logo} alt="Site Logo" />
-                        <span>Mumble</span>
+                        <span>Webrtc</span>
                     </h3>
                 </div>
                 <div id="nav__links">
