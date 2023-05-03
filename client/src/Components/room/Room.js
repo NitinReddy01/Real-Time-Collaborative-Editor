@@ -10,7 +10,7 @@ import AgoraRTC from 'agora-rtc-react';
 import TextEditor from '../texteditor/Texteditor';
 import Container from '../Whiteboard/container/Container';
 //app id of agora
-const APP_ID = "ef296adc2c3146b0a8ebb53785da997a"
+const APP_ID = "You APP ID"
 //rtm client
 let rtmClient;
 let channel;//channel or room

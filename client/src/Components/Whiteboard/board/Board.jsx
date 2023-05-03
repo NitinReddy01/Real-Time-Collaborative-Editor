@@ -6,7 +6,7 @@ import './style.css';
 class Board extends React.Component {
 
     timeout;
-    socket = io.connect("https://mumble.onrender.com/");
+    socket = io.connect("Backend URL");
     ctx;
     isDrawing = false;
 
